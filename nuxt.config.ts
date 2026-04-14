@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  ssr: false,
   css: [
     "vuetify/lib/styles/main.sass",
     "~/assets/main.scss",
@@ -9,6 +10,7 @@ export default defineNuxtConfig({
   },
   modules: ["nuxt-icon", "@pinia/nuxt"],
   app: {
+    baseURL: "/prompt-builder-fe/",
     head: {
       title: "PromptBuilder",
       link: [
