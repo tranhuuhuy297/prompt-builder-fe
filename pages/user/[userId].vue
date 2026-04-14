@@ -44,7 +44,7 @@
 
 <script setup>
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}`;
+const baseURL = `${config.public.apiBaseURL}`;
 
 const { userId } = useRoute().params;
 

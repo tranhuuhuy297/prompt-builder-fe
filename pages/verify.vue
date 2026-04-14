@@ -34,7 +34,7 @@ definePageMeta({
 });
 
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}/user`;
+const baseURL = `${config.public.apiBaseURL}/user`;
 
 const route = useRoute();
 const verifyCode = ref("");

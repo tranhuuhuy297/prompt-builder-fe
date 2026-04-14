@@ -137,7 +137,7 @@ function handleSelectFile() {
 }
 
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}`;
+const baseURL = `${config.public.apiBaseURL}`;
 
 const file = ref("");
 

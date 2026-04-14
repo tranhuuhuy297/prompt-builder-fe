@@ -163,7 +163,7 @@ const props = defineProps({
 const emit = defineEmits(["deletedPrompt", "upvotedPrompt"]);
 
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}`;
+const baseURL = `${config.public.apiBaseURL}`;
 
 const isShowDialog = ref(false);
 const isShowDeleteDialog = ref(false);

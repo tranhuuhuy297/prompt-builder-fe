@@ -81,7 +81,7 @@
 import { useStyleStore } from "~/stores/Style";
 
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}`;
+const baseURL = `${config.public.apiBaseURL}`;
 
 const styleStore = useStyleStore();
 

@@ -11,7 +11,7 @@ import { useUserStore } from "~/stores/User";
 const userStore = useUserStore();
 
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}`;
+const baseURL = `${config.public.apiBaseURL}`;
 
 async function handleGetUser() {
   if (!userStore.id) return;

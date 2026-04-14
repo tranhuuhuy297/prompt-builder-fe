@@ -62,7 +62,7 @@ import { useUserStore } from "~/stores/User";
 const userStore = useUserStore();
 
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}`;
+const baseURL = `${config.public.apiBaseURL}`;
 
 const page = ref(0);
 const size = ref(20);

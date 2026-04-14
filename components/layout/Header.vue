@@ -243,7 +243,7 @@ onMounted(() => {
 });
 
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}`;
+const baseURL = `${config.public.apiBaseURL}`;
 
 function logout() {
   userStore.reset();

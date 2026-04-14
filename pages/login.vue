@@ -70,7 +70,7 @@ const password = ref("");
 const showPassword = ref(false);
 
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}/user`;
+const baseURL = `${config.public.apiBaseURL}/user`;
 
 const userStore = useUserStore();
 

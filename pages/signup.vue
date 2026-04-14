@@ -85,7 +85,7 @@
 import { sha256 } from "ohash";
 
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}/user`;
+const baseURL = `${config.public.apiBaseURL}/user`;
 
 const username = ref("");
 const gmail = ref("");

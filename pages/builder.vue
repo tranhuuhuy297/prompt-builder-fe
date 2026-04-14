@@ -386,7 +386,7 @@ function updateParam(listParam) {
 }
 
 const config = useRuntimeConfig();
-const baseURL = `${config.public.baseURL}`;
+const baseURL = `${config.public.apiBaseURL}`;
 const semanticSearch = ref("");
 const isLoadingSearch = ref(false);
 const semanticSearchResult = ref([]);
